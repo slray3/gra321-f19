@@ -25,6 +25,10 @@ header{
     white-space: nowrap;
 }
 
+.box::-webkit-scrollbar{
+    display: none;
+}
+
 .card-a {
     display: inline-block;
     background-color: red;
@@ -56,7 +60,7 @@ header{
 
 .card-e {
     display: inline-block;
-    background-color: purple;
+    background-color: blue;
     height: 300px;
     width: 300px;
 }
