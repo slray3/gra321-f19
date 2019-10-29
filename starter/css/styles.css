@@ -10,19 +10,19 @@ body{
     margin: 0;
 }
 
+header{
+    height: 200px;
+    font-size: 500%;
+    text-align: center;
+    padding-top: 40px;
+}
+
 .box{
     height: 300px;
     background-color: gray;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-}
-
-header{
-    height: 200px;
-    font-size: 500%;
-    text-align: center;
-    padding-top: 40px;
 }
 
 .card-a {
@@ -48,6 +48,13 @@ header{
 }
 
 .card-d {
+    display: inline-block;
+    background-color: purple;
+    height: 300px;
+    width: 300px;
+}
+
+.card-e {
     display: inline-block;
     background-color: purple;
     height: 300px;
