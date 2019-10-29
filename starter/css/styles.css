@@ -14,12 +14,22 @@ body{
 header{
     height: 200px;
     font-size: 500%;
-    text-align: center;
-    padding-top: 40px;
+    text-align: left;
+    padding: 40px 1rem 1rem 1rem;
+    background-color: #B07979;
+}
+h2{
+    font-size: 50px;
+    padding: 1rem;
+}
+.about{
+    font-size: 20px;
+    padding: 1rem;
+    padding-right: 12rem;
 }
 .box{
-    height: 900px;
-    background-color: gray;
+    height: 700px;
+    background-color: white;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
@@ -29,13 +39,13 @@ header{
 }
 .card-a {
     display: inline-block;
-    background-color: red;
+    background-color: #FFF2F2;
     height: 900px;
     width: 900px;
 }
 .card-b {
     display: inline-block;
-    background-color: yellow;
+    background-color: #FFE6E6;
     height: 900px;
     width: 900px;   
 }
