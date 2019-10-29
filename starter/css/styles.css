@@ -32,35 +32,35 @@ header{
 .card-a {
     display: inline-block;
     background-color: red;
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
 }
 
 .card-b {
     display: inline-block;
     background-color: yellow;
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
     
 }
 
 .card-c {
     display: inline-block;
     background-color: green;
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
 }
 
 .card-d {
     display: inline-block;
     background-color: purple;
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
 }
 
 .card-e {
     display: inline-block;
     background-color: blue;
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
 }
