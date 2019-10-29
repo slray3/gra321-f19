@@ -15,6 +15,7 @@ body{
     background-color: gray;
     overflow-x: scroll;
     overflow-y: hidden;
+    white-space: nowrap;
 }
 
 header{
