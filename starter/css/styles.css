@@ -10,57 +10,50 @@ body{
     margin: 0;
 }
 
+/*******DRINK SCROLL***/
 header{
     height: 200px;
     font-size: 500%;
     text-align: center;
     padding-top: 40px;
 }
-
 .box{
-    height: 300px;
+    height: 900px;
     background-color: gray;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
 }
-
 .box::-webkit-scrollbar{
     display: none;
 }
-
 .card-a {
     display: inline-block;
     background-color: red;
-    height: 500px;
-    width: 500px;
+    height: 900px;
+    width: 900px;
 }
-
 .card-b {
     display: inline-block;
     background-color: yellow;
-    height: 500px;
-    width: 500px;
-    
+    height: 900px;
+    width: 900px;   
 }
-
 .card-c {
     display: inline-block;
     background-color: green;
-    height: 500px;
-    width: 500px;
+    height: 900px;
+    width: 900px;
 }
-
 .card-d {
     display: inline-block;
     background-color: purple;
-    height: 500px;
-    width: 500px;
+    height: 900px;
+    width: 900px;
 }
-
 .card-e {
     display: inline-block;
     background-color: blue;
-    height: 500px;
-    width: 500px;
+    height: 900px;
+    width: 900px;
 }
