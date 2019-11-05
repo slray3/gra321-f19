@@ -8,9 +8,22 @@
 
 header {
     background-color: #FFF2F2;
+
+}
+
+.card-b {
+    
     
 }
 
+
+.a-heading{
+    font-size: 200px;
+    position:relative;
+    bottom: 11.5rem;
+    color: white;
+    
+}
 /***NAVIGATION BAR***/
 
 body {
@@ -20,6 +33,11 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #333;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .navbar a {
@@ -57,7 +75,7 @@ body {
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 1001;
 }
 
 .dropdown-content a {
@@ -94,11 +112,12 @@ body{
 }
 .card-a {
     display: inline-block;
-    background-color: #FFF2F2;
+    background-image: url('/starter/img/coffee.jpg');
+    background-size: cover;
     height: 900px;
-    width: 900px;
-    padding: 3rem;
+    width: 800px;
     font-size: 2rem;
+    z-index: -1;
 }
 .card-b {
     display: inline-block;
@@ -126,7 +145,7 @@ body{
 }
 .card-e {
     display: inline-block;
-    background-color: #FFF2F2;
+    background-image: ;
     height: 900px;
     width: 900px;
     padding: 3rem;
@@ -134,10 +153,3 @@ body{
 }
 
 /*****Categories***/
-.coffee {
-  position: absolute;
-    height: 800px; 
-  right: 550px;
-  top: 472px;
-  z-index: 1;
-}
