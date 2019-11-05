@@ -6,36 +6,50 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 
-body{
-    margin: 0;
+}
+/***NAVIGATION BAR***/
+
+body {
+  margin: 0;
 }
 
-header{
-    height: 300px;
-    font-size: 300px;
-    text-align: left;
-    background-color: #B07979;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
-.img-logotype{
-    width: auto;
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
 }
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
 /*******DRINK SCROLL***/
 
-h3{
-    padding-bottom: 2rem;
-}
-h2{
-    font-size: 50px;
-    padding: 1rem;
-}
-.about{
-    font-size: 20px;
-    padding: 1rem;
-    padding-right: 12rem;
+body{
+  margin:0;
 }
 .box{
-    height: 700px;
-    background-color: grey;
+    height: 800px;
+    background-color: white;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
@@ -44,7 +58,7 @@ h2{
     display: none;
 }
 .card-a {
-    display: inline-;
+    display: inline-block;
     background-color: #FFF2F2;
     height: 900px;
     width: 900px;
@@ -55,23 +69,31 @@ h2{
     display: inline-block;
     background-color: #FFE6E6;
     height: 900px;
-    width: 900px;   
+    width: 900px;
+    padding: 3rem;
+    font-size:2rem;
 }
 .card-c {
     display: inline-block;
-    background-color: green;
+    background-color: #FFF2F2;
     height: 900px;
     width: 900px;
+    padding: 3rem;
+    font-size: 2rem;
 }
 .card-d {
     display: inline-block;
-    background-color: purple;
+    background-color: #FFF2F2;
     height: 900px;
     width: 900px;
+    padding: 3rem;
+    font-size: 2rem;
 }
 .card-e {
     display: inline-block;
-    background-color: blue;
+    background-color: #FFF2F2;
     height: 900px;
     width: 900px;
+    padding: 3rem;
+    font-size: 2rem;
 }
