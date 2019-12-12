@@ -1,155 +1,437 @@
-/* Starter Project Styles*/ 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Nunito Sans', sans-serif;
-}
-
-header {
-    background-color: #FFF2F2;
-
-}
-
-.card-b {
-    
-    
-}
-
-
-.a-heading{
-    font-size: 200px;
-    position:relative;
-    bottom: 11.5rem;
-    color: white;
-    
-}
-/***NAVIGATION BAR***/
-
-body {
+.container {
+  flex-wrap: wrap 400px;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat (1,1fr);
+  justify-items:center;
+  font-family: 'Museo Sans', sans-serif;
+  font-size: 16pt;
+  font-weight: 700;
+  list-style: none;
+  display: 90%;
   margin: 0;
+  }
+
+img {
+  width:100%;
+  position: static;
+  object-fit: cover;
 }
 
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-    position: sticky;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1000;
+@-ms-viewport {
+    width:device-width;
 }
 
-.navbar a {
-  float: left;
-  font-size: 18px;
-  color: white;
+.header {
+  grid-column: 1/1;
+  grid-row: 1/1;
+  padding: 0px;
+  justify-items: left;
+  font-size: 24pt
+}
+
+a:link {
+  text-decoration: none;
+  font-style: bold;
+  font-weight: 500;
+  font-size:16pt;
+  line-height: 27pt;
+  color:black;
+}
+
+a:visited {
+  color:black;
+  text-decoration: none;
+  font-style: bold;
+  font-weight: 700;
+}
+
+a:hover {
+  color:#F73179;
+  text-decoration: none;
+  font-style: bold;
+  font-weight: 700;
+}
+
+.h1 {
+  line-height: 36pt;
+}
+
+.linktab {
+  justify-items: center;
+  font-size:20pt;
+  line-height: 27pt;
+}
+
+.price {
+  font-size: 16pt;
+  font-weight: 300;
+  margin-top: 0px;
+}
+
+.p {
+  font-size: 16pt;
+  font-weight: 300;
+}
+
+p span {
+    padding: 20px;
+}
+
+h2 span {
+    padding: 2px;
+}
+
+h3 span {
+    padding-right: 20px;
+}
+
+.h2 {
+  padding: 20px;
+  font-size: 20pt;
+  margin-bottom: 0px;
+}
+
+.description {
+  font-size: 16pt;
+  font-weight: 300;
+  line-height: 26pt;
+} 
+
+.paninis {
+  line-height: 27pt;
+  font-size: 16pt;
+  width: 80%;
+}
+
+.hours {
+  font-weight: 300;
+  font-size: 16pt;
+  font-weight: 300;
+  line-height: 27pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+  padding-top: 60px;
+}
+
+.linktab h2 {
+  padding-top: 70px;
+}
+
+#drinkanchor {
+  font-family: 'Museo Sans';
+  font-weight: 300 !important;
+}
+
+.price {
+  font-family: 'EB Garamond' !important;
+  margin-top: -10px;
+  margin-bottom: 80px;
+}
+
+.hot h3, .cold h3 {
+  font-size: 35px;
   text-align: center;
-  padding: 18px 20px;
-  text-decoration: none;
+  font-family: 'Museo Sans';
+  font-weight: 500;
+  border-bottom: 2px solid #dd4f35;
+  padding-bottom: 25px;
 }
 
-.dropdown {
-  float: left;
-  overflow: hidden;
+.additions h3, .seasonal h3 {
+  font-size: 35px;
+  font-family: 'Museo Sans';
+  font-weight: 500;
 }
 
-.dropdown .dropbtn {
-  font-size: 18px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 18px 20px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
+.hot h4, .cold h4 {
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Museo Sans';
+  font-weight: 700;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: grey;
+#Charlies, .linktab a {
+  font-weight: 500;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1001;
+
+h2 a {
+  font-size: 24px !important;
 }
 
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+
+h3 {
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Museo Sans';
+  font-weight: 500;
+  border-bottom: 2px solid #DD4F35;
+  padding-bottom: 25px;
 }
 
-.dropdown-content a:hover {
-  background-color: #ddd;
+h4 p, h4 {
+  text-align: center;
+  font-family: 'Museo Sans' !important;
+  font-size: 14px !important;
+  letter-spacing: 2px !important;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+p {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: ;
+  line-height: 30px;
+  font-family: 'EB Garamond';
 }
 
-/*******DRINK SCROLL***/
-
-body{
-  margin:0;
-}
-.box{
-    height: 800px;
-    background-color: white;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-}
-.box::-webkit-scrollbar{
-    display: none;
-}
-.card-a {
-    display: inline-block;
-    background-image: url('/starter/img/coffee.jpg');
-    background-size: cover;
-    height: 900px;
-    width: 800px;
-    font-size: 2rem;
-    z-index: -1;
-}
-.card-b {
-    display: inline-block;
-    background-color: #FFE6E6;
-    height: 900px;
-    width: 900px;
-    padding: 3rem;
-    font-size:2rem;
-}
-.card-c {
-    display: inline-block;
-    background-color: #FFF2F2;
-    height: 900px;
-    width: 900px;
-    padding: 3rem;
-    font-size: 2rem;
-}
-.card-d {
-    display: inline-block;
-    background-color: #FFF2F2;
-    height: 900px;
-    width: 900px;
-    padding: 3rem;
-    font-size: 2rem;
-}
-.card-e {
-    display: inline-block;
-    background-image: ;
-    height: 900px;
-    width: 900px;
-    padding: 3rem;
-    font-size: 2rem;
+.hours span {
+  font-family: 'Museo Sans';
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
 }
 
-/*****Categories***/
+.location p {
+    font-family: 'Museo Sans';
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.hours span:nth-child(1) {
+  font-weight: 700;
+  margin-left: -20px;
+}
+
+.hours span:nth-child(2) {
+  margin-left: -20px;
+}
+
+#HoursAnchor, #LocationAnchor {
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Museo Sans';
+  font-weight: 500;
+  border-bottom: 2px solid #DD4F35;
+  padding-bottom: 25px;
+}
+
+.eats .description {
+  font-size: 28px !important;
+  line-height: 27px !important;
+  font-weight: 300 !important;
+  line-height: 30px !important;
+  font-family: 'EB Garamond' !important;
+  text-transform: none !important;
+}
+
+#Charlies {
+  font-family: 'EB Garamond';
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:800px) {
+  .container {
+    flex-wrap: wrap 500px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat (8,1fr);
+    grid-gap: 5px;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 2pt;
+  }
+
+  .header {
+    grid-column:1/1;
+    z-index: 100;
+    grid-row: 1/1;
+    justify-items: left;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 39pt;
+    margin-right: -100px;
+  }
+
+  .linktab {
+    grid-column:2/2;
+    grid-row: 1/1;
+    justify-items: center;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+    margin-left: -100px;
+  }
+
+ .foodtitle {
+    grid-column:1/3;
+    grid-row: 7/7;
+    justify-items: center;
+    padding: 20px;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+  }
+
+  .hot {
+    grid-column:1/1;
+    grid-row: 4/4;
+    justify-items: left;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+  }
+
+  .cold {
+    grid-column:2/2;
+    grid-row: 4/4;
+    justify-items: left;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+  }
+
+  .eats {
+    grid-column:1/1;
+    grid-row:8/8;
+    justify-items: left;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+  }
+
+  .seasonal {
+    grid-column:2/2;
+    grid-row:5/5;
+    justify-items: left;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+  }
+
+  .additions {
+    grid-column: 1/1;
+    grid-row: 5/5;
+    justify-items: center;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+  }
+
+  .paninis {
+    grid-column: 2/2;
+    grid-row: 8/8;
+    justify-items: center;
+    width: 80%;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+  }
+
+  .hours {
+    grid-column: 2/2;
+    grid-row: 10/10;
+    justify-items: center;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 15pt;
+  }
+
+  .location {
+    grid-column: 1/1;
+    grid-row: 10/10;
+    justify-items: center;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+  }
+
+  .image {
+    grid-column: 1/3;
+    grid-row: 2/2;
+    justify-items: center;
+  }
+
+  .image2 {
+    grid-column: 1/3;
+    grid-row: 6/6;
+    justify-items: center;
+  }
+
+  .image3 {
+    grid-column: 1/3;
+    grid-row: 9/9;
+    justify-items: center;
+  }
+
+  .price {
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+  }
+
+  .description {
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+  }
+
+  .link {
+    grid-column: 1/3;
+    grid-row: 11/11;
+    justify-items: center;
+    padding: 20px;
+  }
+
+  a:link {
+    text-decoration: none;
+    font-style: bold;
+    font-weight: 500;
+    font-size:24pt;
+    line-height: 27pt;
+    color:black;   
+  }
+
+  a:hover {
+    color: #eb5a52;
+    text-decoration: none;
+    font-style: bold;
+    font-weight: 500;
+    border-bottom: 2px solid #eb5a52;
+    padding-bottom: 2px;
+  }
+}
+
+::selection {
+  background-color: yellow;
+}
